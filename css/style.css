@@ -1,3 +1,35 @@
-input {
-	display: block;
+body {
+	background-image: url(../assets/backgroundimg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+}
+
+section {
+	background-color: rgba(255, 255, 255, 0.899);
+	margin-top: 50px;
+	height: 600px;
+	width: 500px;
+	border: 1px lightgrey solid;
+	border-radius: 10px;
+}
+
+h1 {
+	text-align: center;
+	padding: 20px;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: unset;
+	font-weight: bolder;
+}
+
+form {
+	
+}
+
+div {
+
 }
