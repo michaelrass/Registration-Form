@@ -9,6 +9,7 @@ fieldset {
 	max-width: 600px;
 	margin: 150px auto 200px auto;
 	height: 800px;
+	border: none;
 }
 
 form {
@@ -16,6 +17,15 @@ form {
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(8, 1fr);
 	background-color: rgba(255, 255, 255, 0.562);
+	border-radius: 20px;
+	height: 850px;
+}
+
+.header {
+	grid-column: 1 / 4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .login {
