@@ -32,6 +32,61 @@ form {
 	align-items: center;
 }
 
+.section__inputfields {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	grid-column: 1 / 4;
+	grid-row: 2 / 6;
+}
+
+.label-name {
+	grid-column: 1 / 5;
+	grid-row: 1 / 2;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	margin: auto 10px;
+}
+
+.label-email {
+	grid-column: 1 / 5;
+	grid-row: 2 / 3;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	margin: auto 10px;
+}
+
+.label-password {
+	grid-column: 1 / 5;
+	grid-row: 3 / 4;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	margin: auto 10px;
+}
+
+.label-repeat-password {
+	grid-column: 1 / 5;
+	grid-row: 4 / 5;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	margin: auto 10px;
+}
+
+.terms {
+	grid-column: 1 / 4;
+	grid-row: 6 / 6;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#terms-checkbox {
+	margin: 8px;
+}
 
 .sign-up {
 	grid-column: 1 / 4;
@@ -39,6 +94,18 @@ form {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+#sign-up-button {
+	height: 70px;
+	width: 400px;
+	background: rgb(124,0,255);
+	background: linear-gradient(140deg, rgba(124,0,255,1) 0%, rgba(0,255,226,1) 53%);
+	color: white;
+	font-family: arial;
+	font-size: 1rem;
+	font-weight: bold;
+	letter-spacing: 3px;
 }
 
 .login {
@@ -51,13 +118,3 @@ form {
 	align-items: center;
 }
 
-#sign-up-button {
-	height: 70px;
-	width: 400px;
-	background: rgb(124,0,255);
-	background: linear-gradient(140deg, rgba(124,0,255,1) 0%, rgba(0,255,226,1) 53%);
-	color: white;
-	font-size: 1rem;
-	font-weight: bold;
-	letter-spacing: 3px;
-}
