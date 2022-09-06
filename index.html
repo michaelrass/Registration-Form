@@ -16,10 +16,10 @@
 					</section>
 					
 					<section class="inputfields">
-						<input type="text">
-						<input type="text">
-						<input type="text">
-						<input type="text">
+						<label for="name">Full name:<input id="name" name="yourname" type="text"></label>
+						<label for="email">Email:<input id="email" type="email"></label>
+						<label for="password">Password:<input id="password" type="password" pattern="[a-z0-9]" min="8" title="Must have minimum 8 characters and be between a to z, and 0 to 9."></label>
+						<label for="repeat-password">Repeat your password:<input id="repeat-password" type="text"></label>
 					</section>
 
 					<section class="terms">
@@ -27,7 +27,7 @@
 					</section>
 
 					<section class="sign-up">
-						<input type="submit" value="SIGN UP">
+						<input type="submit" value="SIGN UP" id="sign-up-button">
 					</section>
 					<section class="login">
 						<p>Already have an account? <a href=""><b>Login Here.</b></a></p>

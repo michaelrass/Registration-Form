@@ -1,3 +1,7 @@
+html {
+	font-size: 20px;
+}
+
 body {
 	background-image: url(../assets/backgroundimg.jpg);
 	background-repeat: no-repeat;
@@ -28,6 +32,15 @@ form {
 	align-items: center;
 }
 
+
+.sign-up {
+	grid-column: 1 / 4;
+	grid-row: 7 / 7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .login {
 	text-align: center;
 	height: 100px;
@@ -38,3 +51,13 @@ form {
 	align-items: center;
 }
 
+#sign-up-button {
+	height: 70px;
+	width: 400px;
+	background: rgb(124,0,255);
+	background: linear-gradient(140deg, rgba(124,0,255,1) 0%, rgba(0,255,226,1) 53%);
+	color: white;
+	font-size: 1rem;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
