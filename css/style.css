@@ -6,6 +6,7 @@ body {
 	background-image: url(../assets/backgroundimg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 }
 
 fieldset {
@@ -138,19 +139,35 @@ label {
 #name {
 	grid-column: 3 / 7;
 	grid-row: 1 / 2;
+	background-image: url(../assets/icons/profileicon.png);
+	background-repeat: no-repeat;
+	background-position-x: 95%;
+	background-position-y: 50%;
 }
 
 #email {
 	grid-column: 3 / 7;
 	grid-row: 2 / 2;
+	background-image: url(../assets/icons/emailicon.png);
+	background-repeat: no-repeat;
+	background-position-x: 95%;
+	background-position-y: 50%;
 }
 
 #password {
 	grid-column: 3 / 7;
 	grid-row: 3 / 3;
+	background-image: url(../assets/icons/passwordicon.png);
+	background-repeat: no-repeat;
+	background-position-x: 95%;
+	background-position-y: 50%;
 }
 
 #repeat-password {
 	grid-column: 3 / 7;
 	grid-row: 4 / 4;
+	background-image: url(../assets/icons/passwordvalidationicon.png);
+	background-repeat: no-repeat;
+	background-position-x: 95%;
+	background-position-y: 50%;
 }
