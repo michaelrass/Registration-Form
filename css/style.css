@@ -6,13 +6,12 @@ body {
 	background-image: url(../assets/backgroundimg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	max-height: 100vh;
 }
 
 fieldset {
 	width: 100%;
 	max-width: 600px;
-	margin: 150px auto 200px auto;
+	margin: 20px auto 200px auto;
 	max-height: 100vh;
 	height: 800px;
 	border: none;
@@ -25,7 +24,7 @@ form {
 	background-color: rgba(255, 255, 255, 0.562);
 	border-radius: 20px;
 	max-height: 100vh;
-	height: 850px;
+	height: 100%;
 }
 
 input {
@@ -126,12 +125,14 @@ label {
 
 .login {
 	text-align: center;
-	height: 100px;
+	height: 80px;
 	grid-row: 8 / 8;
 	grid-column: 1 / 4;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 10px;
+
 }
 
 #name {
